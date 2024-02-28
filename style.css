@@ -248,7 +248,7 @@ hr {
 }
 
 .imageDams {
-    max-width: 80%;
+    max-width: 100%;
     height: auto
 }
 
@@ -259,11 +259,13 @@ hr {
 }
 
 .w3-image:hover {
+    background-color: #AC3864;
     -webkit-transform: scale(0.95);
     -ms-transform: scale(0.95);
     transform: scale(0.95);
     transition: 0.25s ease;
 }
+  
 
 img {
     vertical-align: middle
