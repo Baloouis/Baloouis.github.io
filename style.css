@@ -1,4 +1,7 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+#portfolio img:hover {
+    opacity: 
+  }
 html {
     box-sizing: border-box
 }
@@ -244,9 +247,22 @@ hr {
     margin: 20px 0
 }
 
+.imageDams {
+    max-width: 80%;
+    height: auto
+}
+
 .w3-image {
+    transition: 0.25s ease;
     max-width: 100%;
     height: auto
+}
+
+.w3-image:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 0.25s ease;
 }
 
 img {
